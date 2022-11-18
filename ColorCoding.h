@@ -7,3 +7,5 @@ typedef struct {
     enum MajorColor majorColor;
     enum MinorColor minorColor;
 } ColorPair;
+
+void testPairToNumber(enum MajorColor major,enum MinorColor minor, int expectedPairNumber);
